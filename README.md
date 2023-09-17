@@ -3,20 +3,20 @@
 Oscillator: You may deployt the  Si570 (expensive) and/or Si5351 or the MS5351M (chinese and actually beter)
 CPU - Arduino Nano 5v ATMEGA328
 
-### Display:
+## Display:
 - 2.8" SPI TFT ILI9341
 - 1.8" SPI TFT ST7735
 - LCD 1602
 - OLED 0.91" 128x32, OLED 0.96" 128x64, OLED 1.3" 128/132x64<br>
 
-### Realtime clock:
+## Realtime clock:
 - DS3231(preffered) or DS1307(TinyRTC) or PCF8563<br>
 
-### Keyboard: 
+## Keyboard: 
 -  BPF & other 
 -  PCF8574<br>
 
-### Rotary encoder 
+## Rotary encoder 
 
 - optical 360-400 pulse/turn or 
 - mechanical 20 pulse/turn
@@ -27,7 +27,8 @@ CPU - Arduino Nano 5v ATMEGA328
 - Dual VFO A/B, SPLIT, RIT.
 - Save current freq and band to EEPROM.
 - CAT-enabled (Kenwood protocol).
-Supports different TRX architecture:
+
+## Supports different TRX architecture:
  1. Single and double IF superheterodyne.
  2. Up-conversion with general coverage 2-30MHz and high IF.
  3. Direct conversion with 2x or 4x output.
@@ -35,7 +36,7 @@ Supports different TRX architecture:
 
 Project homepage http://www.ur5ffr.com/viewtopic.php?t=174
 
-Required libraries:
+## Required libraries:
 
  1. PDQ GFX with packed font support https://github.com/andrey-belokon/PDQ_GFX_Libs. You need to install PDQ_GFX, PDQ_ILI9341 and PDQ_ST7735
  2. UR5FFR_Si5351 https://github.com/andrey-belokon/UR5FFR_Si5351
